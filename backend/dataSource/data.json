@@ -1,0 +1,78 @@
+{
+  "questionnaire_0" :
+  {
+    "level_0" : {
+        "message": "Are you Hungry?",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      },
+    "level_1" : {
+      "Yes": {
+        "message": "What would you like to eat?",
+        "options": [
+          "Hamburger",
+          "Pizza",
+          "Pop Corn",
+          "Chicken"
+        ]
+      },
+      "No": {
+        "message": "OK, call me when you are hungry."
+      }
+    },
+    "level_2" :{
+      "Hamburger": {
+        "message": "Nice, I will order a hamburger for you."
+      },
+      "Pizza": {
+        "message": "Would you like pizza with mushroom?",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Pop Corn": {
+        "message": "Would you like pop corn with cheese?",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      },
+      "Chicken": {
+        "message": "Would you like chicken with cheese?",
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    "level_3" :{
+      "Pizza": {
+        "Yes": {
+          "message": "Ok, i will order the best pizza in town for you."
+        },
+        "No": {
+          "message": "No? Well... stay hungry then."
+        }
+      },
+      "Pop Corn": {
+        "Yes": {
+          "message": "Ok, i will order the best pop corn in town for you."
+        },
+        "No": {
+          "message": "No? Well... stay hungry then."
+        }
+      },
+      "Chicken": {
+        "Yes": {
+          "message": "Ok, i will order the best chicken in town for you."
+        },
+        "No": {
+          "message": "No? Well... stay hungry then."
+        }
+      }
+    }
+  }
+}
